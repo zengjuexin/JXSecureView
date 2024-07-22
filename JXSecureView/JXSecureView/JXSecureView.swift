@@ -17,18 +17,11 @@ class JXSecureView: UIView {
     
     private lazy var secureView: UIView = {
         let secureView = textField.subviews.first ?? UIView()
-        
-        secureView.subviews.forEach {
-            $0.removeFromSuperview()
-        }
         return secureView
     }()
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        
-        
-        
         self.addSubview(textField)
     }
     
