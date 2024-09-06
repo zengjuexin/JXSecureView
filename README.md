@@ -1,2 +1,4 @@
 # JXSecureView
 JXSecureView
+通过UITextField的属性，在截屏与录屏的时候隐藏视图
+已知问题，在录屏过程中添加的视图不会被隐藏
